@@ -14,10 +14,32 @@
 </head>
 <body>
    
-<!-- Include user header -->
-<header>
+<?php 
+include 'components/connect.php';
 
-</header>
+session_start();
+
+if(isset($_SESSION['user_id'])){
+   $user_id = $_SESSION['user_id'];
+}else{
+   $user_id = '';
+   header('location:user_login.php');
+};
+
+if(isset($_POST['delete'])){
+   $cart_id = $_POST['cart_id'];
+   $delete_cart_item = $conn->prepare("DELETE FROM `cart` WHERE id = ?");
+   $delete_cart_item->execute([$cart_id]);
+}
+
+if(isset($_GET['delete_all'])){
+   $delete_cart_item = $conn->prepare("DELETE FROM `cart` WHERE user_id = ?");
+   $delete_cart_item->execute([$user_id]);
+   header('location:cart.php');
+}
+
+include 'components/user_header.php'; 
+?>
 
 <section class="products shopping-cart">
 
@@ -40,8 +62,6 @@
          <input type="submit" value="Delete Item" onclick="return confirm('Delete this from cart?');" class="delete-btn" name="delete">
       </form>
       <!-- End of Example Cart Item -->
-
-
    </div>
 
    <div class="cart-total">
