@@ -15,10 +15,10 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo" img src="../images/Ezone-logo.png" alt=""></a>
+      <a href="index.php" class="logo"><span>E-Zone</span></a>
 
       <nav class="navbar">
-         <a href="home.php">Home</a>
+         <a href="index.php">Home</a>
          <a href="about.php">About</a>
          <a href="orders.php">Orders</a>
          <a href="shop.php">Shop</a>
@@ -56,7 +56,7 @@
             <a href="user_register.php" class="option-btn">Register</a>
             <a href="user_login.php" class="option-btn">Login</a>
          </div>
-         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('Logout from the Website?');">Logout</a> 
+         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('Logout from the User?');">Logout</a> 
          <?php
             }else{
          ?>

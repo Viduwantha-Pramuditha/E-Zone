@@ -15,10 +15,10 @@
 
    <section class="flex">
 
-      <a href="../admin/dashboard.php" class="logo">Admin<span>Panel</span></a>
+      <a href="../admin/dashboard.php" class="logo"><span>Admin Panel</span></a>
 
       <nav class="navbar">
-         <a href="../admin/dashboard.php">Home</a>
+         <a href="../admin/dashboard.php">Dashboard</a>
          <a href="../admin/products.php">Products</a>
          <a href="../admin/placed_orders.php">Orders</a>
          <a href="../admin/admin_accounts.php">Admins</a>
@@ -43,9 +43,12 @@
             <a href="../admin/register_admin.php" class="option-btn">Register</a>
             <a href="../admin/admin_login.php" class="option-btn">Login</a>
          </div>
-         <a href="../components/admin_logout.php" class="delete-btn" onclick="return confirm('Logout from the Website?');">Logout</a> 
+         <a href="../components/admin_logout.php" class="delete-btn" onclick="return confirm('Logout from the Admin Panel?');">Logout</a> 
       </div>
 
    </section>
 
 </header>
+
+
+

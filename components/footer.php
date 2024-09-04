@@ -4,7 +4,7 @@
 
       <div class="box">
          <h3>Quick Links</h3>
-         <a href="admin_login.php"> <i class="fas fa-angle-right"></i> Admin</a>
+         <a href="admin/admin_login.php"> <i class="fas fa-angle-right"></i> Admin</a>
          <a href="about.php"> <i class="fas fa-angle-right"></i> About</a>
          <a href="shop.php"> <i class="fas fa-angle-right"></i> Shop</a>
          <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>

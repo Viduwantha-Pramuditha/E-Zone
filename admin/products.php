@@ -40,10 +40,6 @@ if(isset($_POST['add_product'])){
    $select_products = $conn->prepare("SELECT * FROM `products` WHERE name = ?");
    $select_products->execute([$name]);
 
-   if($select_products->rowCount() > 0){
-      $message[] = 'Product Name Already Exist!';
-   }else{
-
       $insert_products = $conn->prepare("INSERT INTO `products`(name, details, price, image_01, image_02, image_03) VALUES(?,?,?,?,?,?)");
       $insert_products->execute([$name, $details, $price, $image_01, $image_02, $image_03]);
 
@@ -60,8 +56,6 @@ if(isset($_POST['add_product'])){
       }
 
    }  
-
-};
 
 if(isset($_GET['delete'])){
 
@@ -157,7 +151,7 @@ if(isset($_GET['delete'])){
       <div class="details"><span><?= $fetch_products['details']; ?></span></div>
       <div class="flex-btn">
          <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">update</a>
-         <a href="products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('Delete This Product?');">delete</a>
+         <a href="products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('Delete this Product?');">delete</a>
       </div>
    </div>
    <?php
