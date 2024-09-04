@@ -35,7 +35,7 @@ include 'components/wishlist_cart.php';
 
 <section class="quick-view">
 
-   <h1 class="heading">quick view</h1>
+   <h1 class="heading">Quick View</h1>
 
    <?php
      $pid = $_GET['pid'];
@@ -68,8 +68,8 @@ include 'components/wishlist_cart.php';
             </div>
             <div class="details"><?= $fetch_product['details']; ?></div>
             <div class="flex-btn">
-               <input type="submit" value="add to cart" class="btn" name="add_to_cart">
-               <input class="option-btn" type="submit" name="add_to_wishlist" value="add to wishlist">
+               <input type="submit" value="Add to Cart" class="btn" name="add_to_cart">
+               <input class="option-btn" type="submit" name="add_to_wishlist" value="Add to Wishlist">
             </div>
          </div>
       </div>
@@ -77,23 +77,11 @@ include 'components/wishlist_cart.php';
    <?php
       }
    }else{
-      echo '<p class="empty">no products added yet!</p>';
+      echo '<p class="empty">No Products Added Yet!</p>';
    }
    ?>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php include 'components/footer.php'; ?>
 

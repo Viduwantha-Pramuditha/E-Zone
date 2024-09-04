@@ -18,7 +18,7 @@ if(isset($_SESSION['user_id'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>About</title>
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    
@@ -42,8 +42,8 @@ if(isset($_SESSION['user_id'])){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis minus et similique doloribus? Harum molestias tenetur eaque illum quas? Obcaecati nulla in itaque modi magnam ipsa molestiae ullam consequuntur.</p>
+         <h3>Why Choose Us?</h3>
+         <p>We know your shopping standards are high. That's why we manage our marketplace with the brands. On E-Zone, you can find the right devices, at the right price. Find all the ways we've got your back.</p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
 
@@ -53,7 +53,7 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
    
-   <h1 class="heading">client's reviews</h1>
+   <h1 class="heading">Client's Reviews</h1>
 
    <div class="swiper reviews-slider">
 
@@ -61,80 +61,80 @@ if(isset($_SESSION['user_id'])){
 
       <div class="swiper-slide slide">
          <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>5 Star seller, highly recommended.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Paul Joyce</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>Thank you so much! Device arrived quickly and was just as described!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Melissa Reddy</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>Top quality product, thanks.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Jadon Sancho</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>Excellent service as always.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Stefania Hohn</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>Smooth transaction, will buy from again.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Mohammed Salah</h3>
       </div>
 
       <div class="swiper-slide slide">
          <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <p>Everthing was flawless.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Aiko Benio</h3>
       </div>
 
    </div>
@@ -144,14 +144,6 @@ if(isset($_SESSION['user_id'])){
    </div>
 
 </section>
-
-
-
-
-
-
-
-
 
 <?php include 'components/footer.php'; ?>
 
